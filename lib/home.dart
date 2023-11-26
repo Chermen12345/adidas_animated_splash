@@ -257,6 +257,26 @@ class Home extends StatelessWidget {
                                 Text("5.0")
                               ],
                             ),
+                          )),
+                      ListTile(
+                          leading: Icon(
+                            Icons.shopping_cart,
+                            color: Colors.black,
+                          ),
+                          title: Text("the best sneakers"),
+                          subtitle: Text("it is my size"),
+                          trailing: SizedBox(
+                            width: 50,
+                            height: 50,
+                            child: Row(
+                              children: [
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.yellow,
+                                ),
+                                Text("5.0")
+                              ],
+                            ),
                           ))
                     ],
                   ),
