@@ -23,6 +23,7 @@ class Home extends StatelessWidget {
                 child: Icon(
                   Icons.favorite,
                   size: 30,
+                  color: Colors.white,
                 ),
               )
             ],
